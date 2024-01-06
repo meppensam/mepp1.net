@@ -2,6 +2,7 @@ body {
     background-color: rgb(238, 215, 238);
     background-image: url("./images/pexels-eberhard-grossgasteiger-2088208.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
@@ -27,11 +28,12 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    padding: 25px;
+    padding: 50px;
     margin: 0 auto;
     max-width: 960px;
-    height: 250px;
+    height: 200px;
     opacity: .85;
+    position: relative;
 }
 
 .skills {
@@ -108,8 +110,9 @@ a:active {
     color: rgb(13, 87, 92);
     text-align: center;
     font-size: 18px;
-    padding-top: 30%;
-    margin-bottom: 2px;
+    padding: 50px;
+    padding-top: 50%;
+    margin-bottom: 30px;
 }
 
 .break {
